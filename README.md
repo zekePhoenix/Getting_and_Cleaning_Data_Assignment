@@ -7,10 +7,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#Data description
+# Data description
 The variables in the data called X are accelerometer and gyroscope measurments from smartphones. The variable in the data called Y are the activity types.
 
-#Code Description
+# Code Description
 The R script here 'run_analysis.R' does the following:
 
 0. Downloads and extracts the zip file listed above.
@@ -20,5 +20,5 @@ The R script here 'run_analysis.R' does the following:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each  subject.
 
-#New Dataset
+# New Dataset
 The  ext file of the results of the code combine and select only the mean and standard deviation for the data.
